@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6570E33C2B7B056400ADB0AF /* SotitosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570E33B2B7B056400ADB0AF /* SotitosApp.swift */; };
+		6570E33E2B7B056400ADB0AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570E33D2B7B056400ADB0AF /* ContentView.swift */; };
+		6570E3402B7B056600ADB0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6570E33F2B7B056600ADB0AF /* Assets.xcassets */; };
+		6570E3442B7B056600ADB0AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6570E3432B7B056600ADB0AF /* Preview Assets.xcassets */; };
+		6570E34E2B7B056600ADB0AF /* SotitosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570E34D2B7B056600ADB0AF /* SotitosTests.swift */; };
+		6570E3582B7B056600ADB0AF /* SotitosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570E3572B7B056600ADB0AF /* SotitosUITests.swift */; };
+		6570E35A2B7B056600ADB0AF /* SotitosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570E3592B7B056600ADB0AF /* SotitosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6570E34A2B7B056600ADB0AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6570E3302B7B056400ADB0AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6570E3372B7B056400ADB0AF;
+			remoteInfo = Sotitos;
+		};
+		6570E3542B7B056600ADB0AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6570E3302B7B056400ADB0AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6570E3372B7B056400ADB0AF;
+			remoteInfo = Sotitos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6570E3382B7B056400ADB0AF /* Sotitos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sotitos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6570E33B2B7B056400ADB0AF /* SotitosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SotitosApp.swift; sourceTree = "<group>"; };
+		6570E33D2B7B056400ADB0AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6570E33F2B7B056600ADB0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6570E3412B7B056600ADB0AF /* Sotitos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sotitos.entitlements; sourceTree = "<group>"; };
+		6570E3432B7B056600ADB0AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6570E3492B7B056600ADB0AF /* SotitosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SotitosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6570E34D2B7B056600ADB0AF /* SotitosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SotitosTests.swift; sourceTree = "<group>"; };
+		6570E3532B7B056600ADB0AF /* SotitosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SotitosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6570E3572B7B056600ADB0AF /* SotitosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SotitosUITests.swift; sourceTree = "<group>"; };
+		6570E3592B7B056600ADB0AF /* SotitosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SotitosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6570E3352B7B056400ADB0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6570E3462B7B056600ADB0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6570E3502B7B056600ADB0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6570E32F2B7B056400ADB0AF = {
+			isa = PBXGroup;
+			children = (
+				6570E33A2B7B056400ADB0AF /* Sotitos */,
+				6570E34C2B7B056600ADB0AF /* SotitosTests */,
+				6570E3562B7B056600ADB0AF /* SotitosUITests */,
+				6570E3392B7B056400ADB0AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6570E3392B7B056400ADB0AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6570E3382B7B056400ADB0AF /* Sotitos.app */,
+				6570E3492B7B056600ADB0AF /* SotitosTests.xctest */,
+				6570E3532B7B056600ADB0AF /* SotitosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6570E33A2B7B056400ADB0AF /* Sotitos */ = {
+			isa = PBXGroup;
+			children = (
+				6570E33B2B7B056400ADB0AF /* SotitosApp.swift */,
+				6570E33D2B7B056400ADB0AF /* ContentView.swift */,
+				6570E33F2B7B056600ADB0AF /* Assets.xcassets */,
+				6570E3412B7B056600ADB0AF /* Sotitos.entitlements */,
+				6570E3422B7B056600ADB0AF /* Preview Content */,
+			);
+			path = Sotitos;
+			sourceTree = "<group>";
+		};
+		6570E3422B7B056600ADB0AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6570E3432B7B056600ADB0AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6570E34C2B7B056600ADB0AF /* SotitosTests */ = {
+			isa = PBXGroup;
+			children = (
+				6570E34D2B7B056600ADB0AF /* SotitosTests.swift */,
+			);
+			path = SotitosTests;
+			sourceTree = "<group>";
+		};
+		6570E3562B7B056600ADB0AF /* SotitosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6570E3572B7B056600ADB0AF /* SotitosUITests.swift */,
+				6570E3592B7B056600ADB0AF /* SotitosUITestsLaunchTests.swift */,
+			);
+			path = SotitosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6570E3372B7B056400ADB0AF /* Sotitos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6570E35D2B7B056600ADB0AF /* Build configuration list for PBXNativeTarget "Sotitos" */;
+			buildPhases = (
+				6570E3342B7B056400ADB0AF /* Sources */,
+				6570E3352B7B056400ADB0AF /* Frameworks */,
+				6570E3362B7B056400ADB0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sotitos;
+			productName = Sotitos;
+			productReference = 6570E3382B7B056400ADB0AF /* Sotitos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6570E3482B7B056600ADB0AF /* SotitosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6570E3602B7B056600ADB0AF /* Build configuration list for PBXNativeTarget "SotitosTests" */;
+			buildPhases = (
+				6570E3452B7B056600ADB0AF /* Sources */,
+				6570E3462B7B056600ADB0AF /* Frameworks */,
+				6570E3472B7B056600ADB0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6570E34B2B7B056600ADB0AF /* PBXTargetDependency */,
+			);
+			name = SotitosTests;
+			productName = SotitosTests;
+			productReference = 6570E3492B7B056600ADB0AF /* SotitosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6570E3522B7B056600ADB0AF /* SotitosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6570E3632B7B056600ADB0AF /* Build configuration list for PBXNativeTarget "SotitosUITests" */;
+			buildPhases = (
+				6570E34F2B7B056600ADB0AF /* Sources */,
+				6570E3502B7B056600ADB0AF /* Frameworks */,
+				6570E3512B7B056600ADB0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6570E3552B7B056600ADB0AF /* PBXTargetDependency */,
+			);
+			name = SotitosUITests;
+			productName = SotitosUITests;
+			productReference = 6570E3532B7B056600ADB0AF /* SotitosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6570E3302B7B056400ADB0AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6570E3372B7B056400ADB0AF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6570E3482B7B056600ADB0AF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6570E3372B7B056400ADB0AF;
+					};
+					6570E3522B7B056600ADB0AF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6570E3372B7B056400ADB0AF;
+					};
+				};
+			};
+			buildConfigurationList = 6570E3332B7B056400ADB0AF /* Build configuration list for PBXProject "Sotitos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6570E32F2B7B056400ADB0AF;
+			productRefGroup = 6570E3392B7B056400ADB0AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6570E3372B7B056400ADB0AF /* Sotitos */,
+				6570E3482B7B056600ADB0AF /* SotitosTests */,
+				6570E3522B7B056600ADB0AF /* SotitosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6570E3362B7B056400ADB0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6570E3442B7B056600ADB0AF /* Preview Assets.xcassets in Resources */,
+				6570E3402B7B056600ADB0AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6570E3472B7B056600ADB0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6570E3512B7B056600ADB0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6570E3342B7B056400ADB0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6570E33E2B7B056400ADB0AF /* ContentView.swift in Sources */,
+				6570E33C2B7B056400ADB0AF /* SotitosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6570E3452B7B056600ADB0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6570E34E2B7B056600ADB0AF /* SotitosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6570E34F2B7B056600ADB0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6570E35A2B7B056600ADB0AF /* SotitosUITestsLaunchTests.swift in Sources */,
+				6570E3582B7B056600ADB0AF /* SotitosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6570E34B2B7B056600ADB0AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6570E3372B7B056400ADB0AF /* Sotitos */;
+			targetProxy = 6570E34A2B7B056600ADB0AF /* PBXContainerItemProxy */;
+		};
+		6570E3552B7B056600ADB0AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6570E3372B7B056400ADB0AF /* Sotitos */;
+			targetProxy = 6570E3542B7B056600ADB0AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6570E35B2B7B056600ADB0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6570E35C2B7B056600ADB0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6570E35E2B7B056600ADB0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sotitos/Sotitos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sotitos/Preview Content\"";
+				DEVELOPMENT_TEAM = UX3MRLT7RF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sotos.Sotitos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6570E35F2B7B056600ADB0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sotitos/Sotitos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sotitos/Preview Content\"";
+				DEVELOPMENT_TEAM = UX3MRLT7RF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sotos.Sotitos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6570E3612B7B056600ADB0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX3MRLT7RF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sotos.SotitosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sotitos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sotitos";
+			};
+			name = Debug;
+		};
+		6570E3622B7B056600ADB0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX3MRLT7RF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sotos.SotitosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sotitos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sotitos";
+			};
+			name = Release;
+		};
+		6570E3642B7B056600ADB0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX3MRLT7RF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sotos.SotitosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sotitos;
+			};
+			name = Debug;
+		};
+		6570E3652B7B056600ADB0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UX3MRLT7RF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.sotos.SotitosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sotitos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6570E3332B7B056400ADB0AF /* Build configuration list for PBXProject "Sotitos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6570E35B2B7B056600ADB0AF /* Debug */,
+				6570E35C2B7B056600ADB0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6570E35D2B7B056600ADB0AF /* Build configuration list for PBXNativeTarget "Sotitos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6570E35E2B7B056600ADB0AF /* Debug */,
+				6570E35F2B7B056600ADB0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6570E3602B7B056600ADB0AF /* Build configuration list for PBXNativeTarget "SotitosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6570E3612B7B056600ADB0AF /* Debug */,
+				6570E3622B7B056600ADB0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6570E3632B7B056600ADB0AF /* Build configuration list for PBXNativeTarget "SotitosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6570E3642B7B056600ADB0AF /* Debug */,
+				6570E3652B7B056600ADB0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6570E3302B7B056400ADB0AF /* Project object */;
+}
